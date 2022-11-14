@@ -1,0 +1,17 @@
+.counter {
+}
+.counter button {
+  margin-right: 10px;
+  border-radius: 6px;
+  border: 1px solid grey;
+  outline: none;
+  background-color: white;
+  padding: 3px 6px;
+}
+
+.counter button:hover {
+  background-color: rgb(221, 221, 221);
+}
+.counter button:active {
+  background-color: deepskyblue;
+}
