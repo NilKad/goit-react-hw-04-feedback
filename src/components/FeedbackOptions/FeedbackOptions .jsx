@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 
 const FeedbackOption = ({ onLeaveFeedback, options }) => {
+  // console.log('options: ', options);
   return (
     <>
       {Object.keys(options).map((b, index) => (
